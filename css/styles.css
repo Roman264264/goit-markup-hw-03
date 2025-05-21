@@ -111,6 +111,8 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+max-width: 496px;
+padding: 188px 0;
 }
 .box-btn {
 background: #4d5ae5;
