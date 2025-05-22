@@ -232,6 +232,12 @@ margin-bottom: 72px;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfilio-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 .portfolio-subtitle {
     font-weight: 500;
@@ -239,6 +245,7 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .portfolio-text {
     font-weight: 400;
@@ -249,6 +256,7 @@ margin-bottom: 72px;
 }
 .footer {
     background: #2e2f42;
+    padding: 100px 0;
 }
 .footer-link {
     font-family: "Raleway", sans-serif;
@@ -258,6 +266,8 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-bottom: 16px;
+display: inline-block;
 }
 .footer-logo {
 font-weight: 700;
